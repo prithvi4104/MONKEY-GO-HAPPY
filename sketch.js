@@ -116,6 +116,7 @@ if (frameCount % 100 === 0) {
   
    if(obstacleGroup.isTouching(monkey)){
     monkey.scale = 0.3;
+    score = 0;
   }
   
   monkey.collide(invisibleGround);
